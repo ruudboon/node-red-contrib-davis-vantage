@@ -10,7 +10,7 @@
     "url":"https://github.com/ruudboon/node-red-contrib-davis-vantage.git"
   },
   "license": "Apache-2.0",
-  "keywords": [ "weather", "davis", "vantage" ],
+  "keywords": [ "node-red", "weather", "davis", "vantage" ],
   "node-red": {
     "version": ">=0.16.0",
     "nodes": {
