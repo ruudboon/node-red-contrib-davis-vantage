@@ -1,0 +1,25 @@
+{
+  "name"          : "node-red-contrib-davis-vantage",
+  "version"       : "0.0.1",
+  "description"   : "Node-RED nodes to talk to davis vantage",
+  "dependencies"  : {
+    "node-davis-vantage"   : "^0.0.1"
+  },
+  "repository" : {
+    "type":"git",
+    "url":"https://github.com/ruudboon/node-red-contrib-davis-vantage.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [ "weather", "davis", "vantage" ],
+  "node-red": {
+    "version": ">=0.16.0",
+    "nodes": {
+      "davis": "nodes/davis.js"
+    }
+  },
+  "author": {
+    "name": "Ruud Boon",
+    "email": "ruud@ruudboon.io",
+    "url": "https://github.com/ruudboon"
+  }
+}
